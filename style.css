@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+
+}
+body{
+    background: #131212;
+}
+header, nav, li{
+   display: inline;
+   list-style: none;
+}
+header nav li{
+    padding: 1%;
+} 
+a, button{
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 17px;
+    margin-top: 0;
+  
+}
+nav{
+    margin-left: 7%;
+    margin-top: 0%;
+    
+}
+nav img{
+    width: 68.5px;
+    height: 68.5px;
+    
+}
+
+nav button{
+    background-color: red;
+    margin-left: 30%;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Exo 2';
+    font-size: 20px;
+   width: 125px
+}
+#img1{
+    width: 553px;
+    height: 90px;
+    left: 77px;
+    top: 152px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+main p{
+    color: #DFCDCD;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    width: 570px;
+    margin-left: 5%;
+}
+#img2{
+
+float: right;
+
+filter: blur(0.5px);
+}
+main section{
+    
+    padding: 2%
+}
+main button{
+    margin-left: 3%;
+    border-radius: 3px;
+    width: 250px;
+    height: 60px;
+    color: #FFFFFF;
+    background: linear-gradient(257.6deg, #FB0000 -1.23%, #131212 165.57%);
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    
+
+
+}
+.sobre{
+    color: #FFFFFF;
+    margin-top: 10%;
+    margin-left: 5%;
+  
+}
+
+.sobre img{
+    float: right
+}
+.text{
+    float: left;
+    width: 600px;
+    margin-top: 10%;
+    
+}
+.sobre{
+    background-image: url(img/Vector.png);
+    position: absolute;
+    margin: 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#img3{
+    margin-top: 15%;
+}
+.sobre h2, p{
+    margin-left: 10%;
+}
+.sobre p{
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DFCDCD;
+    margin-top: 1%;
+
+}
+.sobre h2{
+    font-family: Exo 2;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0.085em;
+    text-align: left;
+
+    font-family: Exo 2;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: -0.055em;
+    text-align: left;
+    margin-top: 8%
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
