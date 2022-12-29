@@ -95,7 +95,9 @@ a, button{
   
 }
 main {
-
+    display: flex;
+    flex-direction: column;
+    gap: 10.5vh;
 }
 main section {
     display: flex;
@@ -105,12 +107,15 @@ main section {
     justify-content: center;
     align-items: center;
 }
+#first {
+    height: 80vh;
+}
 .leftside {
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 30%;
-    height: 100%;
+    height: fit-content;
 }
 #imgCodeslank{
     width: 90%;
@@ -143,24 +148,19 @@ main section {
     margin-left: 5%;
 }
 #second{
-    float: bottom;
     display: flex;
     color: #FFFFFF;
-    background-image: url(img/Vector.png);
-    position: absolute;
     margin: 0%;
     width: 100%;
-    background-repeat: no-repeat;
-}
-
-#second img{
-    float: right
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
 }
 .text{
     float: left;
     width: 600px;
 }
-.second p{
+#second p{
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -170,7 +170,7 @@ main section {
     margin-top: 1%;
 
 }
-.second h2{
+#second h2{
     font-size: 40px;
     font-weight: 800;
     line-height: 55px;
@@ -183,8 +183,19 @@ main section {
     letter-spacing: -0.055em;
     text-align: left;
     margin-top: 8%
-
 }
+#img3 {
+    animation: floating 3s ease-in-out infinite;
+}
+#vector{
+    position: absolute;
+    filter: blur(0.5px);
+    z-index: -1;
+    height: 100%;
+    width: 300%;
+    animation: slideshow 60s linear infinite;
+}
+
 @-webkit-keyframes slide-top {
     0% {
         -webkit-transform: translateY(0);
@@ -274,8 +285,15 @@ main section {
               transform-origin: 0% 50%;
     }
   }
-  
-
+  @keyframes slideshow {
+    0%    { left: 0; }
+    100%  { left: -200%; }
+  }
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
 ::-webkit-scrollbar {
     width: 10px;
     }
